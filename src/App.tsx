@@ -2,7 +2,7 @@ import {Layout} from './components/Layout'
 
 function App() {
   return (
-    <Layout title="EdgeAI">
+    <Layout title="GoonAI">
       <div></div>
     </Layout>
   )
