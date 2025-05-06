@@ -2,14 +2,13 @@ import { Container } from "../shared/Container";
 import logo from '../../assets/icon.svg'
 import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
-import { useThemeStore } from "../../store/themeStore";
+import { useThemeStore } from "../../store/ThemeStore";
 
 const navItems = [
     {href: "#", label: "Home"},
     {href: "#services", label: "Services"},
     {href: "#about-us", label: "About Us"},
-    {href: "#features", label: "Features"},
-
+    {href: "#pricing", label: "Pricing"},
 ]
 
 export const Navbar = () => {
