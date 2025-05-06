@@ -21,17 +21,18 @@ export const Hero = () => {
           className="relative flex flex-col items-center text-center lg:text-left lg:py-8 lg:items-start
                         lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
         >
-          <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-            Empower Your Business
+            <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
+            Unleash the Power of
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">
-              with AI{" "}
+                GoonAI
             </span>
-          </h1>
+            </h1>
           <Paragraph className="mt-8">
-            Our AI SaaS platform seamlessly integrates with your existing
-            workflows to deliver real‑time insights, intelligent automation, and
-            data‑driven decision-making. Experience a future where your business
-            runs smarter, faster, and more efficiently.
+            GoonAI's cutting-edge platform transforms how businesses operate by 
+            bringing advanced AI capabilities to your fingertips. Our intelligent 
+            solutions adapt to your unique workflows, providing actionable insights, 
+            automating routine tasks, and optimizing your decision-making process.
+            Experience the GoonAI advantage today.
           </Paragraph>
           <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
             <div className="flex sm:flex-row flex-col gap-5 w-full">
