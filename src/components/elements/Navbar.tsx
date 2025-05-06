@@ -22,9 +22,9 @@ const { toggleTheme, theme } = useThemeStore();
                 <nav className="flex w-full justify-between gap-6 relative">
                     <div className="min-w-max inline-flex relative">
                         <a href="/" className="relative flex items-center gap-3">
-                            <img src={logo} alt="EdgeAI Logo" className="w-10 h-10" />
+                            <img src={logo} alt="GoonAI Logo" className="w-10 h-10" />
                             <div className="inline-flex text-lg font-semibold text-heading-1">
-                                EdgeAI
+                                GoonAI
                             </div>
                         </a>
                     </div>

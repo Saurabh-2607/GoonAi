@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Footer } from "./elements/Footer";
 import { Navbar } from "./elements/Navbar";
+import { Hero } from "./section/Hero";
 
 interface LayoutProps {
     title: string;
@@ -18,6 +19,7 @@ export const Layout = ({ title, children }: LayoutProps) => {
 
         <main className="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
             {children}
+            <Hero/>
         </main>
 
         <Footer/>
