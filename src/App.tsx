@@ -2,6 +2,7 @@ import {Layout} from './components/Layout'
 import { Brands } from './components/section/Brands';
 import { Hero } from './components/section/Hero';
 import { Services } from './components/section/Services';
+import { AboutUs } from './components/section/AboutUs';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Hero/>
         <Brands/>
         <Services/>
+        <AboutUs/>
     </Layout>
   )
 }
