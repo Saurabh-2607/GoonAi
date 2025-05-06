@@ -5,7 +5,7 @@ import { Numbers } from "./Numbers";
 
 export const Hero = () => {
   return (
-    <section className="relative pt-16 lg:pt-20">
+    <section className="relative pt-36 lg:pt-38">
       {" "}
       <Container className="flex flex-col lg:flex-row gap-10 lg:gap-12">
         <div className="absolute w-full lg:w-1/2 inset-y-0 lg:right-0">
