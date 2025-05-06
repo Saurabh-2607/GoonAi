@@ -4,7 +4,7 @@ import { Paragraph } from "../shared/Paragraph";
 
 export const CallToAction = () => {
   return (
-    <section className="pb-20 relative">
+    <section id="calltoaction" className="pb-20 relative">
       {" "}
       <Container>
         <div className="relative rounded-2xl overflow-hidden">
